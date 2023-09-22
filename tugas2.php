@@ -21,7 +21,7 @@
             <option value="pekerjaan 5">Guru</option>
             <option value="pekerjaan 6">Dosen</option>
             <option value="pekerjaan 7">Petani</option>
-            <option value="pekerjaan 8">Nelayan/option>
+            <option value="pekerjaan 8">Nelayan</option>
             <option value="pekerjaan 9">Pebisnis</option>
             <option value="pekerjaan 10">Penjual</option>
 </select><br>
