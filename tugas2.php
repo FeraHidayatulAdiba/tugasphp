@@ -14,16 +14,16 @@
         <label for="">Pekerjaan</label>
         <select name="pekerjaan" id="">
             <option value="">---pilihan pekerjaan---</option>
-            <option value="pekerjaan 1">Pekerjaan 1</option>
-            <option value="pekerjaan 2">Pekerjaan 2</option>
-            <option value="pekerjaan 3">Pekerjaan 3</option>
-            <option value="pekerjaan 4">Pekerjaan 4</option>
-            <option value="pekerjaan 5">Pekerjaan 5</option>
-            <option value="pekerjaan 6">Pekerjaan 6</option>
-            <option value="pekerjaan 7">Pekerjaan 7</option>
-            <option value="pekerjaan 8">Pekerjaan 8</option>
-            <option value="pekerjaan 9">Pekerjaan 9</option>
-            <option value="pekerjaan 10">Pekerjaan 10</option>
+            <option value="pekerjaan 1">Dokter</option>
+            <option value="pekerjaan 2">Polisi</option>
+            <option value="pekerjaan 3">Perawat</option>
+            <option value="pekerjaan 4">Koki</option>
+            <option value="pekerjaan 5">Guru</option>
+            <option value="pekerjaan 6">Dosen</option>
+            <option value="pekerjaan 7">Petani</option>
+            <option value="pekerjaan 8">Nelayan/option>
+            <option value="pekerjaan 9">Pebisnis</option>
+            <option value="pekerjaan 10">Penjual</option>
 </select><br>
         <label><input type="radio" name="hobby" value="Hobby 1"> Mendesain </label><br>
         <label><input type="radio" name="hobby" value="Hobby 2"> Berenang</label><br>
@@ -47,7 +47,7 @@
     $hobby = $_POST['hobby'];
 
 
-    echo '<table border="1">
+    echo "<table>
 				<tr>
 					<th>Nama</th>
 					<th>Pekerjaan</th>
@@ -58,7 +58,7 @@
 					<td>$pekerjaan</td>
 					<td>$hobby</td><br>
 				</tr>
-			</table>';
+			</table>";
 	}
 	?>
 </body>
