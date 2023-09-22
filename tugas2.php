@@ -14,27 +14,27 @@
         <label for="">Pekerjaan</label>
         <select name="pekerjaan" id="">
             <option value="">---pilihan pekerjaan---</option>
-            <option value="pekerjaan 1">Dokter</option>
-            <option value="pekerjaan 2">Polisi</option>
-            <option value="pekerjaan 3">Perawat</option>
-            <option value="pekerjaan 4">Koki</option>
-            <option value="pekerjaan 5">Guru</option>
-            <option value="pekerjaan 6">Dosen</option>
-            <option value="pekerjaan 7">Petani</option>
-            <option value="pekerjaan 8">Nelayan</option>
-            <option value="pekerjaan 9">Pebisnis</option>
-            <option value="pekerjaan 10">Penjual</option>
+            <option value="Dosen">Dosen</option>
+            <option value="Guru">Guru</option>
+            <option value="TNI">TNI</option>
+            <option value="Polisi">Polisi</option>
+            <option value="Nelayan">Nelayan</option>
+            <option value="Koki">Koki</option>
+            <option value="Karyawan">Karyawan</option>
+            <option value="Penjual">Penjual</option>
+            <option value="Satpam">Satpam</option>
+            <option value="HRD">HRD</option>
 </select><br>
-        <label><input type="radio" name="hobby" value="Hobby 1"> Mendesain </label><br>
-        <label><input type="radio" name="hobby" value="Hobby 2"> Berenang</label><br>
-        <label><input type="radio" name="hobby" value="Hobby 3"> Traveling</label><br>
-        <label><input type="radio" name="hobby" value="Hobby 4"> Vlogging</label><br>
-        <label><input type="radio" name="hobby" value="Hobby 5"> Memasak</label><br>
-        <label><input type="radio" name="hobby" value="Hobby 6"> Berbelanja</label><br>
-        <label><input type="radio" name="hobby" value="Hobby 7"> Bernyanyi</label><br>
-        <label><input type="radio" name="hobby" value="Hobby 8"> Futsal</label><br>
-        <label><input type="radio" name="hobby" value="Hobby 9"> Berkuda</label><br>
-        <label><input type="radio" name="hobby" value="Hobby 10"> Tidur</label><br>
+        <label><input type="radio" name="hobby" value="Memasak"> Memasak</label><br>
+        <label><input type="radio" name="hobby" value="Tidur"> Tidur</label><br>
+        <label><input type="radio" name="hobby" value="Memanah"> Memanah</label><br>
+        <label><input type="radio" name="hobby" value="Berenang"> Berenang</label><br>
+        <label><input type="radio" name="hobby" value="Bulutangkis"> Bulutangkis</label><br>
+        <label><input type="radio" name="hobby" value="Sepakbola"> Sepakbola</label><br>
+        <label><input type="radio" name="hobby" value="Memancing"> Memancing</label><br>
+        <label><input type="radio" name="hobby" value="Traveling"> Traveling</label><br>
+        <label><input type="radio" name="hobby" value="Vlogging"> Vlogging</label><br>
+        <label><input type="radio" name="hobby" value="Berbelanja"> Berbelanja</label><br>
 
         <button name="simpan" type="submit">Simpan</button>
 
@@ -47,18 +47,18 @@
     $hobby = $_POST['hobby'];
 
 
-    echo "<table>
+    echo '<table border="1">
 				<tr>
 					<th>Nama</th>
 					<th>Pekerjaan</th>
 					<th>Hobby</th>
 				</tr>
 				<tr>
-					<td>$nama</td>
-					<td>$pekerjaan</td>
-					<td>$hobby</td><br>
+					<td>' . $_POST['nama']. '</td>
+					<td>' . $_POST['pekerjaan']. '</td>
+					<td>' . $_POST['hobby']. '</td><br>
 				</tr>
-			</table>";
+			</table>';
 	}
 	?>
 </body>
