@@ -47,7 +47,7 @@
     $hobby = $_POST['hobby'];
 
 
-    echo "<table border="1">
+    echo '<table border="1">
 				<tr>
 					<th>Nama</th>
 					<th>Pekerjaan</th>
@@ -58,7 +58,7 @@
 					<td>$pekerjaan</td>
 					<td>$hobby</td><br>
 				</tr>
-			</table>";
+			</table>';
 	}
 	?>
 </body>
