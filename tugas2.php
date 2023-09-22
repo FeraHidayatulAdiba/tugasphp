@@ -25,16 +25,16 @@
             <option value="pekerjaan 9">Pekerjaan 9</option>
             <option value="pekerjaan 10">Pekerjaan 10</option>
 </select><br>
-        <label><input type="radio" name="hobby" value="Hobby 1"> Hobby 1</label><br>
-        <label><input type="radio" name="hobby" value="Hobby 2"> Hobby 2</label><br>
-        <label><input type="radio" name="hobby" value="Hobby 3"> Hobby 3</label><br>
-        <label><input type="radio" name="hobby" value="Hobby 4"> Hobby 4</label><br>
-        <label><input type="radio" name="hobby" value="Hobby 5"> Hobby 5</label><br>
-        <label><input type="radio" name="hobby" value="Hobby 6"> Hobby 6</label><br>
-        <label><input type="radio" name="hobby" value="Hobby 7"> Hobby 7</label><br>
-        <label><input type="radio" name="hobby" value="Hobby 8"> Hobby 8</label><br>
-        <label><input type="radio" name="hobby" value="Hobby 9"> Hobby 9</label><br>
-        <label><input type="radio" name="hobby" value="Hobby 10"> Hobby 10</label><br>
+        <label><input type="radio" name="hobby" value="Hobby 1"> Mendesain </label><br>
+        <label><input type="radio" name="hobby" value="Hobby 2"> Berenang</label><br>
+        <label><input type="radio" name="hobby" value="Hobby 3"> Traveling</label><br>
+        <label><input type="radio" name="hobby" value="Hobby 4"> Vlogging</label><br>
+        <label><input type="radio" name="hobby" value="Hobby 5"> Memasak</label><br>
+        <label><input type="radio" name="hobby" value="Hobby 6"> Berbelanja</label><br>
+        <label><input type="radio" name="hobby" value="Hobby 7"> Bernyanyi</label><br>
+        <label><input type="radio" name="hobby" value="Hobby 8"> Futsal</label><br>
+        <label><input type="radio" name="hobby" value="Hobby 9"> Berkuda</label><br>
+        <label><input type="radio" name="hobby" value="Hobby 10"> Tidur</label><br>
 
         <button name="simpan" type="submit">Simpan</button>
 
@@ -47,7 +47,7 @@
     $hobby = $_POST['hobby'];
 
 
-    echo "<table>
+    echo "<table border="1">
 				<tr>
 					<th>Nama</th>
 					<th>Pekerjaan</th>
