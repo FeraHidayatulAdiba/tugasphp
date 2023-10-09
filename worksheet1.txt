@@ -69,4 +69,4 @@ MariaDB [dbpost]> desc pembelian;
 | harga     | double      | YES  |     | NULL    |       |
 | vendor_id | int(11)     | YES  |     | NULL    |       |
 +-----------+-------------+------+-----+---------+-------+
-7 rows in set (0.038 sec)
+7 rows in set (0.038 sec)
